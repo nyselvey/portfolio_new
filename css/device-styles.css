@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1024px) {
+	.introtext, .intropic {
+		width: 300px;
+		margin: 50px 5px;
+	}
+
+	.about_col1, .about_col2, .about_col3 {
+		width: 200px;
+	}
+
+	.work_container, .tutorials {
+		display: block;
+	}
+
+	.work_col1, .work_col2, .tutorial_list {
+		width: 75%;
+		margin: 30px 15%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.about_flex_contain {
+		display: block;
+	}
+
+	.about_col1, .about_col2, .about_col3 {
+		width: 400px;
+		margin: 30px 20%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container1_intro {
+		display: block;
+	}
+
+	.introtext, .intropic {
+		width: 400px;
+		margin: 30px 20%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.introtext, .intropic {
+		margin: 30px 10%;
+	}
+
+	.about_col1, .about_col2, .about_col3 {
+		margin: 30px 10%;
+	}
+
+	.work_col1, .work_col2, .tutorial_list {
+		margin: 30px 10%;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.nav {
+		height: 50px;
+	}
+
+	#topnav li a { 
+	  font-size: 1em;
+	  line-height: 50px;
+	}
+
+	.introtext, .intropic {
+		margin: 30px 5%;
+	}
+
+	.about_col1, .about_col2, .about_col3 {
+		margin: 30px 5%;
+	}
+
+	.work_col1, .work_col2, .tutorial_list {
+		margin: 10px 2px;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	.section_title h1 {
+		font-size: 1.75em;
+	}
+
+	#contact h2, #contact h3 {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.nav {
+		height: 40px;
+	}
+
+	#topnav li a {
+		font-size: .9em;
+		line-height: 40px;
+	}
+
+	.container1_intro, .container1 {
+		padding: 50px 0;
+	}
+
+	.intropic, .introtext, .about_col1, .about_col2, .about_col3, .tutorial_list {
+		width: 100%;
+		margin: 10px 2px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#topnav li {
+		margin: 0 1px;
+	}
+
+	#topnav li a {
+		font-size: .7em;
+		padding: 15px 5px;
+	}
+
+	#work_nav li {
+		margin: 0 5px;
+		padding: 10px;
+		background-color: rgb(255,255,255);
+	}
+
+	#work_nav li a {
+		font-size: 15px;
+		padding: 5px;
+	}
+
+	.intropic, .introtext, .about_col1, .about_col2, .about_col3, .tutorial_list {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.social a {
+		margin: 15px;
+	}
+}
