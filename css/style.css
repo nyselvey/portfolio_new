@@ -327,6 +327,10 @@ p {
 	list-style-type: circle;
 }
 
+.graphics img {
+	border: 8px solid #BDC3C7;
+}
+
 /**************************** Contact ****************************/
 
 #contact {
