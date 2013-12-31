@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<head>
+<head> 
 
 	<!-- //////////////////// Meta data ///////////////////// -->
 	<meta charset="utf-8">
@@ -24,11 +24,16 @@
 
 	<!-- /////////////////// Additional Styling //////////////////// -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tab-slider-style.css">
 	<link rel="stylesheet" href="css/device-styles.css">
 
-	<!-- //////////////////// Additional Javascript ///////////////////// -->
+	<!-- bxSlider Javascript file -->
+	
+<!-- bxSlider CSS file -->
+	<link href="jquery/bxslider/jquery.bxslider.css" rel="stylesheet">
+
+	<!-- //////////////////// Javascript ///////////////////// -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  	<script type="text/javascript" charset="utf-8" src="jquery/jquery.scrollTo.js"></script>
   	<script type="text/javascript" charset="utf-8" src="jquery/jquery.nav.js"></script>
 	<!-- [if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,11 +46,10 @@
 	<header>
 		<div class="nav">
 			<ul id="topnav">
-				<li><a href="#intro">HOME</a></li>
-				<li><a href="#about"> ABOUT </a></li>
-				<li><a href="#work">MY WORK</a></li>
-				<li><a href="http://natashaselvey.blogspot.com/" id="blog-link"> BLOG </a></li>
+				<li><a href="#about">ABOUT </a></li>
+				<li><a href="#work">WORK</a></li>
 				<li><a href="#contact">CONTACT</a></li>
+				<li><a href="http://natashaselvey.blogspot.com/" id="blog-link"> BLOG </a></li>
 			</ul>
 		</div> <!-- nav -->
 	</header>
@@ -56,12 +60,8 @@
 		<div class="container1_intro clearfix">
 			
 			<div class="introtext">
-				<h1>Hello there!</h1>
-					<p>My name is Natasha Selvey and I am 
-					a freelance technical writer based 
-					in San Francisco. I love to create material, explain complicated
-					things simply, and explore new technologies and design concepts.<br><br>
-					I'm currently available for freelance work, so <a href="#contact">contact me</a> for details!</p>
+				<h1>Hello there!</h1><br><br>
+					<p>My name is Natasha Selvey and I create things.</p>
 			</div> <!-- introtext -->
 
 			<div class="intropic">
@@ -89,24 +89,23 @@
 				
 				<div class="about_col1">
 					<h1>WHO I AM</h1>
-					<p> Former scientist turned technology geek. I love writing as well as learning to code and exploring graphics, layouts and web design. I enjoy explaining complicated things simply, and working with people. </p>
+					<p> Former scientist turned technology geek. I love discovering new technologies, learning to code and exploring graphics, layouts and web design. I enjoy explaining complicated things simply, and working with people. </p>
 				</div> <!-- about_col1 -->
 
 				<div class="about_col2">
 					<h1>SKILLS </h1>
 					<ol>
-						<li>Editing and review – I pick apart documents to ensure they are as great as possible</li>
-						<li>Organization – I live and breathe proper content layout</li>
+						<li>Organization – I live and breathe keeping life and work in tip-top order</li>
 						<li>Quality – Details, details, details! I am all about finding those tiny mistakes or missing bits of information</li>
+						<li>Communication - I pride myself on being open and clear in written and oral conversations</li>
 					</ol>
 				</div> <!-- about_col2 -->
 
 				<div class="about_col3">
 					<h1>TOOLS</h1>
 					<ol>
-						<li>Languages – I can read Java, Python, and JavaScript and I enjoy web design using HTML and CSS</li>
-						<li>Web Development - I use MAMP for local hosting and Google App Engine for servers and databases</li>
-						<li>Text Editing - I love Sublime Text 2 for creating websites and working on new applications</li>
+						<li>Languages – I thrive in Python, Django, JQuery, HTML/XHTML, CSS, PHP and gaining proficiency in MySQL and Java</li>
+						<li>Tools - Sublime Text 2, MAMP, Google App Engine, Balsamiq, GIMP, SnagIt, Eclispe</li>
 					</ol>
 				</div> <!-- about_col3 -->
 
@@ -124,54 +123,18 @@
 			</div> <!-- mywork  -->
 
 		</div> <!-- section_title -->
-	
-			<div class="work_nav">
-				<ul id="work_nav" class="list_work_nav">
-					<li><a href="tutorials.html#work" class="first_work_nav">TUTORIALS</a></li>
-					<li><a href="index.html#work">WEB DESIGN</a></li>
-					<li><a href="apps.html#work">WEB APPS</a></li>
-					<li><a href="graphics.html#work">GRAPHICS</a></li>
-				</ul>
-			</div> <!-- work_nav -->
 		
-		<div class="container2 clearfix">
-			
+		<div class="container1 clearfix">
 			<div class="work_container">
-				<div class="work_col1">
-					<h3>Personal Rebranding</h3>
-					<p><a href="www.natashaselvey.com">www.natashaselvey.com</a></p>
-					<h4>Description</h4>
-					<p>Due to a change in career direction, I redid my website. The previous version used floating divs, multiple static pages, and a contact form. For this new site, I wanted a more designer/developer look. I used a one-page style layout, Flexbox containers, Javascript scrolling, and a more Bootstrap style asthetic.</p>
-					<h4>Role</h4>
-					<p>Desgin, Development, Responsive testing, HTML/CSS Validation</p>
-					<h4>Platform</h4>
-					<p>Web</p>
-					<h4>Tools</h4>
-					<ol>
-						<li>HTML/CSS/JS</li>
-						<li>GIMP</li>
-						<li>Bootstrap</li>
-						<li>Github</li>
-					</ol>
-				</div> 
-
-				<div class="work_col2">
-					<img src="work/rebrand.png" alt="Personal Project" height="800">
-				</div> 
-			</div> 
-
-			<div class="work_container">
-
+				<div style="font-size: 3em; text-align: center; margin: 0 auto;">
+					<p> Coming soon! </p>
+				</div>
+				<!--
 				<div class="work_col1">
 					<h3>Personal Wedding Website</h3>
 					<p><a href="http://russellandnatasha.com" target="_blank">www.russellandnatasha.com</a></p>
 					<h4>Description</h4>
 					<p>My wedding website for an out of state destination wedding complete with details, guest information, registry buttons, and an rsvp form.</p>
-					<h4>Role</h4>
-					<p>Design, Development, Responsive testing, HTML/CSS Validation</p>
-					<h4>Platform</h4>
-					<p>Web</p>
-					<h4>Tools</h4>
 					<ol>
 						<li>HTML/CSS</li>
 						<li>JQuery</li>
@@ -179,14 +142,104 @@
 						<li>Bootstrap</li>
 						<li>Google Drive</li>
 					</ol>
-				</div> <!-- work_col1 -->
+				</div> 
+				<div class="work_col2">
+					<ul class="bxslider">
+						<li><img src="work/wedingwebsite.png" alt="Wedding Website"></li>
+						<li><img src="work/wedding-1.png" alt="Wedding Website"></li>
+						<li><img src="work/wedding-2.png" alt="Wedding Website"></li>
+				</div> 
+
+			</div> 
+
+			<div class="work_container">
+				<div class="work_col1">
+					<h3>Ascii Art App</h3>
+					<p><a href="http://ascii-app.appspot.com" target="_blank">http://ascii-app.appspot.com</a></p>
+					<h4>Description</h4>
+					<p>This application is a website that publishes ascii art. You simply add art through the input form and it publishes it, like a blog. When you upload new art, the map indicates your location. Old locations are saved so the map updates with a new "pin". </p>
+					<ol>
+						<li>HTML</li>
+						<li>Python</li>
+						<li>Google App Engine</li>
+						<li>Google Static Maps</li>
+					</ol>
+				</div> 
 
 				<div class="work_col2">
-					<img src="work/wedingwebsite.png" alt="Wedding Website">
-				</div> <!-- work_col2 -->
+					<ul class="bxslider">
+						<li><img src="work/ascii_first.png" alt="Ascii Without Art"></li>
+						<li><img src="work/ascii_second.png" alt="Acii With Art"></li>
+						<li><img src="work/ascii_third.png" alt="Ascii With posted art"></li>
+				</div> 
+			</div>
 
+			<div class="work_container">
+				<div class="work_col1">
+					<h3>Blog App</h3>
+					<p><a href="http://nyselvey-user-signup.appspot.com/" target="_blank">http://nyselvey-user-signup.appspot.com/</a></p>
+					<h4>Description</h4>
+					<p>This application is a website that publishes ascii art. You simply add art through the input form and it publishes it, like a blog. When you upload new art, the map indicates your location. Old locations are saved so the map updates with a new "pin". </p>
+					<ol>
+						<li>HTML/CSS</li>
+						<li>Python</li>
+						<li>Google App Engine</li>
+						<li>Bootstrap</li>
+					</ol>
+				</div> 
+
+				<div class="work_col2">
+					<ul class="bxslider">
+						<li><img src="work/blog_first.png" alt="Blog Register Page"></li>
+						<li><img src="work/blog_second.png" alt="Blog Login Page"></li>
+						<li><img src="work/blog_third.png" alt="Create a new post page"></li>
+						<li><img src="work/blog_fourth.png" alt="Blog posts page"></li>
+						<li><img src="work/blog_fifth.png" alt="Single Post Page"></li>
+				</div> 
+			</div>
+
+			<div class="work_container">
+				<div class="work_col1">
+					<h3>Crystal Ball App for iOS7 &amp; Android</h3>
+					<h4>Description</h4>
+					<p>This is mobile application to predict the future. Shake the phone and you receive a prediction to your question!. There is an iOS7 and Android version. </p>
+					<ol>
+						<li>X-Code</li>
+						<li>Objective-C</li>
+						<li>Eclispe</li>
+						<li>Java</li>
+					</ol>
+				</div> 
+
+				<div class="work_col2">
+					<ul class="bxslider">
+						<li><img src="work/ios_crystalball.png" alt="iOS Crystal Ball" style="display: block; margin: 0 auto;"></li>
+						<li><img src="work/ios_crystalball2.png" alt="iOS Crystal Ball" style="display: block; margin: 0 auto;"></li>
+					</ul>
+				</div> 
+			</div>
+
+			<div class="work_container">
+				<div class="work_col1">
+					<h3>Blog Reader App for iOS7 &amp; Android</h3>
+					<h4>Description</h4>
+					<p>This is mobile application to read the blog from TreeHouse.com. </p>
+					<ol>
+						<li>X-Code</li>
+						<li>Objective-C</li>
+						<li>Eclispe</li>
+						<li>Java</li>
+					</ol>
+				</div> 
+
+				<div class="work_col2">
+					<ul class="bxslider">
+						<li><img src="work/ios_blog1.png" alt="iOS Blog Reader" style="display: block; margin: 0 auto;"></li>
+						<li><img src="work/ios_blog2.png" alt="iOS Reader" style="display: block; margin: 0 auto;"></li>
+					</ul>
+				</div> -->
 			</div><!-- work_container -->
-		</div> <!-- container2 clearfix -->
+		</div>  <!-- container1 clearfix -->
 	</div> <!-- work -->
 <!-- //////////////////// End Work ///////////////////// -->
 
@@ -227,7 +280,40 @@
 	  	window.location = 'http://natashaselvey.blogspot.com/';
 	  });
 	});
-	</script>
 
+	$(document).ready(function(){
+	  $('.bxslider').bxSlider();
+	});
+
+	var FADE_MARGIN = 225;
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+        
+        var top_of_window = $(window).scrollTop();
+        var bottom_of_window = top_of_window + $(window).height();
+    
+        /* Check the location of each desired element */
+        $('.section_title').each( function(i){
+            var top_of_object = $(this).offset().top;
+            var bottom_of_object = top_of_object + $(this).outerHeight();
+            
+            var distance_from_top =  bottom_of_object - top_of_window;
+            var distance_from_bottom =  bottom_of_window - top_of_object;
+         
+            if (distance_from_top >= 0 && distance_from_top < FADE_MARGIN) {
+                $(this).css({opacity: (distance_from_top / FADE_MARGIN)});
+            } else if (distance_from_bottom >= 0 && distance_from_bottom < FADE_MARGIN) {
+                $(this).css({opacity: (distance_from_bottom / FADE_MARGIN)});
+            }
+        });
+    });
+});
+
+	</script>
+	<script src="jquery/jquery.scrollTo.js"></script>
+<script src="jquery/bxslider/jquery.bxslider.min.js"></script>
 </body>
 </html>

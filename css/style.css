@@ -74,8 +74,8 @@ p {
 }
 
 .container2 {
-	width: 80%;
-	margin: 0 auto;
+	width: 95%;
+	/*margin: 0 auto;*/
 	padding-top: 50px;
 	padding-bottom: 100px;
 }
@@ -134,8 +134,18 @@ p {
 	border-bottom: 1px solid rgb(52, 73, 94);
 }
 
+.introtext h1 {
+	font-size: 5em;
+	padding-bottom: 10px;
+}
+
+.introtext p {
+	font-size: 2em;
+	line-height: 30px;
+}
+
 .introtext, .intropic {
-	width: 400px;
+	width: 500px;
 	margin: 50px 0;
 }
 
@@ -233,35 +243,6 @@ p {
 	border-bottom: 1px solid rgb(52, 73, 94);		
 }
 
-#work_nav {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-	-webkit-justify-content: center;
-	justify-content: center;
-}
-
-#work_nav li {
-	margin: 0 5px;
-	padding: 10px;
-	background-color: rgb(255,255,255);
-}
-
-#work_nav li a {
-	color:black;
-	font-size: 18px;
-	padding: 10px;
-}
-
-#work_nav li.highlight {
-	background-color: black;
-}
-
-#work_nav a:hover {
-	color: gray;
-}
-
 /*************************** Work ***************************/
 
 .work_container {
@@ -274,48 +255,25 @@ p {
 }
 
 .work_col1 {
-	background-color: white;
-	min-height: 400px;
-	width: 30%;
+	width: 40%;
 	padding: 10px;
 	border-radius: 10px;
-	margin: 50px 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	box-shadow: 0px 0px 10px 0px #BDC3C7;
-	-webkit-box-shadow: 0px 0px 10px 0px #BDC3C7;
-	-moz-box-shadow: 0px 0px 10px 0px #BDC3C7;
+	margin: 50px 10px 50px 40px;
+}
+
+.work_col1 li {
+	float: left;
+	background-color: black;
+	padding: 5px;
+	margin: 5px;
+	color: #BDC3C7;
+	border-radius: 10px;
+	font-size: 1em;
 }
 
 .work_col2 {
 	width: 60%;
 	margin: 50px 0px;
-}
-
-.tutorials {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-	-webkit-justify-content: center;
-	justify-content: center;
-}
-
-.tutorial_list {
-	width: 30%;
-	margin: 0 10px;
-}
-
-.tutorial_list li {
-	list-style: disc;
-}
-
-.tutorial_list h3 {
-	line-height: .5em;
-}
-
-.tutorial_list li a {
-	font-size: .8em;
 }
 
 #nested {
@@ -377,4 +335,29 @@ p {
 
 .social a:hover {
 	background-position: left -34px;
+}
+
+/******************* Slider ********************/
+.image_small img {
+  height: 175px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.textbox_left {
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+
+.textbox_mid {
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+
+.textbox_right {
+  width: 300px;
+  float: right;
+  margin: 10px;
 }
